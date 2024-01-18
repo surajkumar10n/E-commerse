@@ -10,7 +10,7 @@ import { useDispatch } from "react-redux";
 import "./HomePages.css";
 import { addToCart } from "../../store/storeSlice";
 import CartPage from "../CartPage/CartPage";
-import jsonData from "../../db.json"
+// import jsonData from "../../db.json"
 const HomePages = ({ selectedCategory, searchProduct }) => {
   const [datas, setDatas] = useState();
 
@@ -20,7 +20,7 @@ const HomePages = ({ selectedCategory, searchProduct }) => {
   const fetchData = async () => {
     try {
       const response = await fetch(
-        "https://www.nykaafashion.com/rest/appapi/V2/categories/products?PageSize=48&filter_format=v2&apiVersion=5&currency=INR&country_code=IN&deviceType=WEBSITE&categoryId=9665&currentPage=1"
+        "https://surajkumar10n.github.io/productlist/productlist.json"
       );
       // console.log(response);
       const data = await response.json();
@@ -30,8 +30,8 @@ const HomePages = ({ selectedCategory, searchProduct }) => {
     }
   };
   useEffect(() => {
-    // fetchData();
-    setDatas(jsonData);
+    fetchData();
+    // setDatas(jsonData);
   }, []);
   // console.log(datas);
   return (
