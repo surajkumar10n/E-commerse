@@ -1,0 +1,15 @@
+import slider_img_1 from "../assets/images/slider-img-1.png"
+import slider_img_2 from "../assets/images/slider-img-2.png"
+import slider_img_3 from "../assets/images/slider-img-3.png"
+import slider_img_4 from "../assets/images/slider-img-4.jpg"
+import spinner from "../assets/images/spinner.svg"
+import error from "../assets/images/error.png"
+import fashion from "../assets/images/fashion.webp"
+import furniture from "../assets/images/furniture.webp"
+import electronic from "../assets/images/electronic.webp"
+import mobile from "../assets/images/mobile.webp"
+import sitelogo from "../assets/images/sitelogo.png"
+import logo from "../assets/images/logo.png"
+import emptycart from "../assets/images/emptycart.jpg"
+
+export {slider_img_1,slider_img_2,slider_img_3,slider_img_4,spinner,error,fashion,furniture,electronic,mobile,sitelogo,logo,emptycart}

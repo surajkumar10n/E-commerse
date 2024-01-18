@@ -1,0 +1,39 @@
+.slider-container {
+    position: relative;
+    width: 100%;
+    max-width: 100vw; /* Set maximum width as per your requirement */
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .slider-image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .slide-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1.5em;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .left-button {
+    left: 0;
+  }
+  
+  .right-button {
+    right: 0;
+  }
+  
+  .slide-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  

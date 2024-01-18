@@ -1,0 +1,85 @@
+.footer {
+    width: 100vw;
+    height: 34vh;
+    background-color: black;
+    color: white;
+  
+}
+
+.footerUpper {
+    height: 26vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: cente2;
+    /* border: 2px solid blue; */
+}
+
+.footerUpper h3 {
+    color: white;
+    font-weight: 450;
+}
+.footerUpper span {
+    font-weight: 200;
+    
+}
+
+.AboutUs {
+    width: 22vw;
+    height: 25vh;
+}
+.AboutUs-icon{
+    width: 15vw;
+    height: 5vh;
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+    color: aquamarine;
+
+    /* border: 2px solid white; */
+}
+
+.ContactUs {
+    width: 22vw;
+    height: 25vh;
+
+}
+
+.ContactUs i {
+    font-size: small;
+    line-height: 1.7rem;
+}
+
+.OurServices {
+    width: 18vw;
+    height: 25vh;
+}
+
+.OurServices p {
+
+    line-height: 0.9rem;
+}
+
+.QuickLink {
+    width: 18vw;
+    height: 25vh;
+
+
+}
+
+.QuickLink p {
+    line-height: 0.9rem;
+
+}
+/* .footer hr{
+    color: red;
+} */
+
+.footerLower {
+    width: 100vw;
+    height: 6vh;
+    text-align: center;
+}
+.footerLower span {
+    color: blue;
+}
