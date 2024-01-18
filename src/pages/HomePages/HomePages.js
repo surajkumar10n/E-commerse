@@ -10,7 +10,7 @@ import { useDispatch } from "react-redux";
 import "./HomePages.css";
 import { addToCart } from "../../store/storeSlice";
 import CartPage from "../CartPage/CartPage";
-// import jsonData from "../../db.json"
+import jsonData from "../../db.json"
 const HomePages = ({ selectedCategory, searchProduct }) => {
   const [datas, setDatas] = useState();
 
@@ -30,8 +30,8 @@ const HomePages = ({ selectedCategory, searchProduct }) => {
     }
   };
   useEffect(() => {
-    fetchData();
-    // setDatas(jsonData);
+    // fetchData();
+    setDatas(jsonData);
   }, []);
   // console.log(datas);
   return (
